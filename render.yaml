@@ -1,0 +1,10 @@
+services:
+- type: web
+name: veteriner-bot
+env: python
+buildCommand: ""
+startCommand: python main.py
+runtime: python
+pythonVersion: 3.10.12
+region: frankfurt
+plan: free
